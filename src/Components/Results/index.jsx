@@ -1,12 +1,16 @@
 import React from 'react';
 import './Results.scss';
 
-function Results(props) {
-  return (
-    <section>
-      <pre>{props.data ? JSON.stringify(props.data, undefined, 2) : null}</pre>
-    </section>
-  );
+function Results({loading, data}) {
+    if (loading) {
+        return <div>Loading...</div>;
+    }
+
+    return (
+        <section>
+            <pre>{data ? JSON.stringify(data, undefined, 2) : null}</pre>
+        </section>
+    );
 }
 
 export default Results;
