@@ -1,0 +1,16 @@
+// Define some variables for header
+$headerBackgroundColor: darken(#f5f5f5, 75);
+$headerTextColor: #eee;
+
+header {
+    background: $headerBackgroundColor;
+    border-bottom: 1px solid #eee;
+    color: $headerTextColor;
+    padding: 1em 0;
+    text-align: center;
+
+    h1 {
+        margin: 0;
+        font-size: 1.5em;
+    }
+}
