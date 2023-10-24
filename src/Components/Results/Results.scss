@@ -1,0 +1,17 @@
+// Define some variables for results
+$resultsBackground: #ffffff;
+$resultsBorderColor: lighten(#f5f5f5, 5%);
+
+section {
+    background: $resultsBackground;
+    border: 1px solid $resultsBorderColor;
+    padding: 1em;
+    margin: 2em 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    pre {
+        font-size: 0.9em;
+        color: darken($resultsBackground, 50%);
+    }
+}

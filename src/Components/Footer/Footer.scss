@@ -1,0 +1,12 @@
+// Define some variables for footer
+$footerBackgroundColor: darken(#f5f5f5, 50);
+$footerBorderColor: #eee;
+
+footer {
+    background: $footerBackgroundColor;
+    border-top: 1px solid $footerBorderColor;
+    padding: 1em 3em;
+    margin: 0;
+    color: lighten($footerBackgroundColor, 25%);
+    font-size: 0.9em;
+}

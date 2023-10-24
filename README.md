@@ -1,9 +1,9 @@
-# React + Vite
+# Resty
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A 4-Phase build of the RESTy application, written in React. In this first phase, our goal is to setup the basic scaffolding of the application, with intent being to add more functionality to the system as we go. This initial build sets up the file structure so that we can progressively build this application in a scalable manner.
 
-Currently, two official plugins are available:
+![UML](./Screenshot%202023-10-23%20at%205.32.34%20PM.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# resty
+## Resources
+
+Codefellows, Jacob Knaack and chatGPT
