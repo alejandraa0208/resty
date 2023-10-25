@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "test": "jest",
+    "test": "react-scripts test --setupFilesAfterEnv=./src/tests/setup.js",
     "test:watch": "jest --watch",
     "dev": "vite",
     "build": "vite build",
@@ -12,20 +12,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.5.1",
     "jest": "^29.7.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-json-view": "^1.21.3",
     "react-jsonschema-form": "^1.8.1",
     "react-router-dom": "^6.17.0",
     "react-scripts": "^5.0.1",
     "sass": "^1.69.4",
+    "text-encoding": "^0.7.0",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.23.2",
     "@babel/preset-react": "^7.22.15",
     "@testing-library/jest-dom": "^6.1.4",
-    "@testing-library/react": "^14.0.0",
+    "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^14.5.1",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
